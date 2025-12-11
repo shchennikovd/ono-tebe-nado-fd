@@ -124,14 +124,14 @@ img {
 }
 
 .place-a-bet {
+  position: relative;
+  z-index: 5;
+  border: 1px solid #fff;
   padding: 11.5px 31.5px;
   color: #fff;
   font-size: 22px;
   text-transform: uppercase;
   background: none;
-  border: 1px solid #fff;
-  position: relative;
-  z-index: 5;
 }
 
 .description-slogan-second-word {
