@@ -12,20 +12,16 @@
   <body class="page">
     <header class="header">
       <nav class="header-menu">
-        <a href="#" class="no-underline">
-          <ul class="header-links-list links-list">
-            <li
-              class="header-links-list-item header-links-list-item-no-bullit"
-            >
-              главная
-            </li>
-            <li class="header-links-list-item">посмотреть лоты</li>
-            <li class="header-links-list-item">об аукционе</li>
-          </ul>
-        </a>
+        <ul class="header-links-list">
+          <li class="header-links-list-item header-links-list-item-active">
+            <a href="#" class="link-active">главная</a>
+          </li>
+          <li class="header-links-list-item"><a href="#">посмотреть лоты</a></li>
+          <li class="header-links-list-item"><a href="#">об аукционе</a></li>
+        </ul>
       </nav>
       <a class="logo">
-        <img src="images/logo-black.svg" alt="логотип ОНО ТЕБЕ НАДО" />
+        <img src="images/logo-black.svg" alt="логотип ОНО ТЕБЕ НАДО" class="logo-img"/>
       </a>
       <address class="contacts header-contacts">
         <a href="tel:+99995555555">+9 999 555 5555</a>
@@ -37,80 +33,66 @@
     <main class="main">
       <section class="cover">
         <h1 class="cover-title">
-          <span class="title-top">ОНО</span>
-          <span class="title-medium">ТЕБЕ</span>
-          <span class="title-bottom">НАДО</span>
+          <span class="title-top">оно</span>
+          <span class="title-medium">теб<span class="no-letter-spacing">е</span></span>
+          <span class="title-bottom">над<span class="no-letter-spacing">о</span></span>
         </h1>
         <div class="description">
-          <p class="description-slogan">
-            <span class="description-slogan-first-word">Аукцион</span>
-            <span class="description-slogan-second-word">вещей,</span>
-            <span class="description-slogan-third-word">в</span>
-            <span class="description-slogan-fourth-word">которые</span>
-            <span class="description-slogan-fifth-word">никто</span>
-            <span class="description-slogan-sixth-word">не</span>
-            <span class="description-slogan-seventh-word">верил</span>
-          </p>
+          <p class="description-slogan"> Аукцион вещей, в которые никто не верил</p>
           <button class="place-a-bet">Сделать ставку</button>
         </div>
         <div class="overlay"></div>
       </section>
 
       <section class="lots">
-        <h3 class="title-lots">Лоты</h3>
+        <h2 class="title-lots">Лоты</h2>
         <ul class="list-of-lots">
           <li class="lot-item lot-one">
-            <a href="#">
-              <article>
-                <div class="lot-text">
-                  <h4 class="title-lot">
-                    Фильм режиссёра, который бросил киношколу
-                  </h4>
-                  <p class="lot-paragraph">
-                    Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
-                    ставка, если бы вы не знали, что режиссёр — Пол Томас
-                    Андерсон?
-                  </p>
-                </div>
+            <a href="#" class="no-underline lot-a">
+              <article class="lot-text">
+                <h3 class="title-lot">
+                  Фильм режиссёра, который бросил киношколу
+                </h3>
+                <p class="lot-paragraph">
+                  Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
+                  ставка, если бы вы не знали, что режиссёр — Пол Томас
+                  Андерсон?
+                </p>
                 <div class="overlay"></div>
               </article>
             </a>
           </li>
           <li class="lot-item lot-two">
-            <a href="#">
-              <article>
-                <div class="lot-text">
-                  <h4 class="title-lot">
-                    Книга, где описан один скучный день из жизни рекламного
-                    агента
-                  </h4>
-                  <p class="lot-paragraph">
-                    Объёмом почти в тысячу страниц. Иногда без знаков препинания
-                    и с переходами на древнеанглийский. В ней одновременно
-                    рассказывается о 16 июня 1904 года и об истории литературы,
-                    начиная с античных времён. И это всё накладывается на
-                    эпическую поэму Гомера. Сколько бы вы поставили на «Улисса»
-                    Джеймса Джойса?
-                  </p>
-                </div>
+            <a href="#" class="no-underline lot-a">
+              <article class="lot-text">
+                <h3 class="title-lot">
+                  Книга, где описан один скучный день из жизни рекламного
+                  агента
+                </h3>
+                <p class="lot-paragraph">
+                  Объёмом почти в тысячу страниц. Иногда без знаков препинания
+                  и с переходами на древнеанглийский. В ней одновременно
+                  рассказывается о 16 июня 1904 года и об истории литературы,
+                  начиная с античных времён. И это всё накладывается на
+                  эпическую поэму Гомера. Сколько бы вы поставили на «Улисса»
+                  Джеймса Джойса?
+                </p>
                 <div class="overlay"></div>
               </article>
             </a>
           </li>
           <li class="lot-item lot-three">
-            <a href="#">
-              <article>
-                <div class="lot-text">
-                  <h4 class="title-lot">
-                    Картина, которую повторит даже 5-летний сын маминой подруги
-                  </h4>
-                  <p class="lot-paragraph">
-                    Ну действительно, там линия, тут кружочек, а здесь и вовсе
-                    что-то похожее на инфузорию-туфельку. Никаких полей, лесов,
-                    котиков... Сколько бы вы на такое поставили, если бы не
-                    знали, что это — одна из революционных работ Кандинского?
-                  </p>
-                </div>
+            <a href="#" class="no-underline lot-a">
+              <article class="lot-text">
+                <h3 class="title-lot">
+                  Картина, которую повторит даже 5-летний сын маминой подруги
+                </h3>
+                <p class="lot-paragraph">
+                  Ну действительно, там линия, тут кружочек, а здесь и вовсе
+                  что-то похожее на инфузорию-туфельку. Никаких полей, лесов,
+                  котиков... Сколько бы вы на такое поставили, если бы не
+                  знали, что это — одна из революционных работ Кандинского?
+                </p>
                 <div class="overlay"></div>
               </article>
             </a>
@@ -132,8 +114,8 @@
           </div>
         </div>
 
-        <div class="about-column">
-          <h3 class="about-title">Об аукционе</h3>
+        <article class="about-column">
+          <h2 class="about-title">Об аукционе</h2>
           <div class="description-block">
             <p class="about-text">
               Здесь вы не встретите очередное пафосное собрание невероятно
@@ -152,7 +134,7 @@
               лоты стали культовыми.
             </p>
           </div>
-        </div>
+        </article>
       </section>
     </main>
 
@@ -163,33 +145,30 @@
         <p>наб. Принсенграхт 263- 265, Амстердам</p>
       </address>
       <nav>
-        <a href="#" class="no-underline">
-          <ul class="footer-links-list">
-            <li
-              class="footer-links-list-item footer-links-list-item-no-bullit"
-            >
-              главная
-            </li>
-            <li class="footer-links-list-item">посмотреть лоты</li>
-            <li class="footer-links-list-item">об аукционе</li>
-          </ul>
-        </a>
+        <ul class="footer-links-list">
+          <li class="footer-links-list-item"><a href="#" class="link-active">главная</a></li>
+          <li class="footer-links-list-item"><a href="#">посмотреть лоты</a></li>
+          <li class="footer-links-list-item"><a href="#">об аукционе</a></li>
+        </ul>
       </nav>
-      <div class="socials">
-        <a href="#">
-          <ul class="socials-items">
-            <li class="socials-item">
+        <ul class="socials-items">
+          <li class="socials-item">
+            <a href="#">
               <img src="images/yt.svg" alt="логотип youtube" class="socials-icon" />
-            </li>
-            <li class="socials-item">
+            </a>
+          </li>
+          <li class="socials-item">
+            <a href="#">
               <img src="images/vk.svg" alt="логитип ВК" class="socials-icon" />
-            </li>
-            <li class="socials-item">
-              <img src="images/pinterest.svg" alt="логотип pinterest" class="socials-icon" />
-            </li>
-          </ul>
-        </a>
-      </div>
+            </a>
+
+          </li>
+          <li class="socials-item">
+            <a href="#">
+              <img src="images/pinterest.svg" alt="логотип pinterest" class="socials-icon"/>
+            </a>
+          </li>
+        </ul>
     </footer>
   </body>
 </html>
