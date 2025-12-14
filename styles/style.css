@@ -127,7 +127,7 @@
   font-size: 22px;
   line-height: 28px;
   text-transform: uppercase;
-  word-spacing: 24px;
+  word-spacing: 18px;
 }
 
 .place-a-bet {
@@ -184,15 +184,15 @@
   background-size: cover;
 }
 
-.lot-one {
+.lot-film {
   background-image: url("../images/card-lot-01.jpg");
 }
 
-.lot-two {
+.lot-book {
   background-image: url("../images/card-lot-02.jpg");
 }
 
-.lot-three {
+.lot-picture {
   background-image: url("../images/card-lot-03.jpg");
 }
 
